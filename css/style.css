@@ -1,3 +1,4 @@
+/*STYLING FOOTER*/
 html {
     position: relative;
     min-height: 100%;
@@ -46,4 +47,19 @@ p {
 .social-icons {
   float: right;
   padding-right: 82px;
+}
+/*------------------------------------
+  Empty div clearing
+  ------------------------------------*/
+.empty{
+  clear: both;
+}
+/*-------------------------------------
+Styling the Headrer
+--------------------------------------*/
+.container{
+  background-color: #D2D9DB;
+}
+.logo {
+  float: left;
 }
