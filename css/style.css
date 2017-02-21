@@ -35,6 +35,7 @@ p {
 }
 .bottom-nav ul {
   margin: 0px;
+
 }
 .clearfix {
   clear: both;
@@ -46,7 +47,19 @@ p {
 }
 .social-icons {
   float: right;
-  padding-right: 82px;
+  /*padding-right: 82px;*/
+  position: relative;
+  left: 161px;
+}
+.social-icons ul {
+  list-style-type: none;
+
+}
+.social-svg {
+  display: inline;
+  position: relative;
+  left: 22px;
+  top: 4px;
 }
 /*------------------------------------
   Empty div clearing
