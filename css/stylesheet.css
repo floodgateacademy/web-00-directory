@@ -8,8 +8,17 @@
 Styling the Headrer
 --------------------------------------*/
 .container{
-  background-color: #D2D9DB;
+  background-color: #FFF;
 }
 .logo {
   float: left;
+  height: 50px;
+  width: 250px
+}
+
+/*------------------------------------
+styling the main section of the page
+--------------------------------------*/
+.main{
+  background-color: #1C354E;
 }
