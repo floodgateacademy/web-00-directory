@@ -12,8 +12,9 @@ background-color: #1C354E;
 height:50px;
 width:170px;
 float: left;
+margin:5px 0px;
+margin-left: 10px;
 }
-
 .parent-container{
 background-color:#FFF;
 }
@@ -41,8 +42,8 @@ border-radius: 50%;
 }
 
 .circles img:hover{
-height: 110px;
-width: 110px;
+height: 102px;
+width: 102px;
 border-radius: 50%;
 }
 ​
