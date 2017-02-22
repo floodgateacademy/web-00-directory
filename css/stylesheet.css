@@ -1,24 +1,48 @@
 /*------------------------------------
   Empty div clearing
-  ------------------------------------*/
+------------------------------------*/
 .empty{
   clear: both;
 }
-/*-------------------------------------
-Styling the Headrer
---------------------------------------*/
+/*------------Styling the Headrer--------------------------------------*/
 .container{
-  background-color: #FFF;
+background-color: #1C354E;
 }
-.logo {
-  float: left;
-  height: 50px;
-  width: 250px
+.logo img{
+height:50px;
+width:170px;
+float: left;
 }
 
-/*------------------------------------
-styling the main section of the page
---------------------------------------*/
-.main{
-  background-color: #1C354E;
+.parent-container{
+background-color:#FFF;
 }
+.rowSection{
+padding: 10px 0;
+width: 99%;
+display:block;
+text-align: center;
+ }
+.circles{
+width:20%;
+display: inline-block;
+margin-left: 20px;
+padding-bottom: 0;
+}
+.circles p,.circles h3{
+  padding: 0;
+  margin: 0;
+}
+
+.circles img{
+height: 100px;
+width: 100px;
+border-radius: 50%;
+}
+
+.circles img:hover{
+height: 110px;
+width: 110px;
+border-radius: 50%;
+}
+​
