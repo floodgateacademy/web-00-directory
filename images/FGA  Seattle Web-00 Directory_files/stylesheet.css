@@ -1,0 +1,95 @@
+/*------------------------------------
+
+  Empty div clearing
+
+  ------------------------------------*/
+
+.empty{
+
+  clear: both;
+
+}
+
+/*-------------------------------------
+
+Styling the Headrer
+
+--------------------------------------*/
+
+.container{
+
+  background-color: #D2D9DB;
+
+}
+
+.logo {
+height:50px;
+width:100px;
+
+  float: left;
+
+}
+
+​p {
+color: red;
+}
+
+.parent-container{
+
+bacKground-color:#FFF;
+
+  /*display: flex;
+
+  border: 2px solid yellow;
+
+  flex-direction: row;
+*/
+}
+
+​
+
+.rowSection {
+
+display:block;
+
+ }
+
+​
+
+.main-container {
+
+  background-color: white;
+
+}
+
+​
+
+/*.row{
+
+  height: 100px;
+
+  width: 100%;
+
+}*/
+
+​
+
+.circles{
+
+display: inline-block;
+ 
+}
+
+.circles img{
+height: 100px;
+width: 100px;
+border-radius: 50%;
+}
+
+.circles img:hover{
+height: 110px;
+width: 110px;
+border-radius: 50%;
+}
+​
+
