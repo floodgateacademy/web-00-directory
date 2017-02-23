@@ -46,13 +46,13 @@ height: 102px;
 width: 102px;
 border-radius: 50%;
 }
-​/*STYLING FOOTER*/
-* {
+​/*----------------------STYLING FOOTER*---------------------------/
+/* {
   margin: 0;
 }
 html, body {
   height: 100%;
-}
+}*/
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
@@ -71,13 +71,15 @@ html, body {
   letter-spacing: 0.16em;
   font-size: 14px;
   font-weight: 600;
-  color: rgb(117,117,117);
-  position: relative;
-  top: 100px;
-  right: 8px;
+  color: #FFF;
+  /*position: relative;*/
+  /*top: 100px;*/
+  /*right: 8px;*/
+  margin-left: auto;
+  margin-right: auto;
   height: 155px;
-  width: 102%;
-  background-color: rgb(207,207,207);
+  width: 100%;
+  background-color: #1C354E;
 }
 .seattle {
   position: relative;
@@ -87,6 +89,11 @@ html, body {
 .menu-item {
   display: inline;
   padding: 5px;
+}
+
+.menu-item a{
+  color: #FFF;
+  text-decoration: none;
 }
 .bottom-nav {
   float: right;
@@ -115,11 +122,16 @@ html, body {
   list-style-type: none;
 
 }
+
+.social-icons a{
+  color: #FFF;
+}
 .social-svg {
   display: inline;
   position: relative;
   left: 22px;
   top: 4px;
+  fill:#FFF;
 }
 /*html {
     position: relative;
