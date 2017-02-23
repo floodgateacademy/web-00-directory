@@ -47,24 +47,36 @@ width: 102px;
 border-radius: 50%;
 }
 ​/*STYLING FOOTER*/
-html {
-    position: relative;
-    min-height: 100%;
+* {
+  margin: 0;
 }
-body {
-    margin: 0 0 550px; /* bottom = footer height */
+html, body {
+  height: 100%;
 }
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.footer, .page-wrap:after {
+  height: 142px;
+}
+
 .footer {
   font-family: 'Asap', sans-serif;
   letter-spacing: 0.16em;
   font-size: 14px;
   font-weight: 600;
   color: rgb(117,117,117);
-  position: absolute;
-  left: 0;
-  bottom: 0;
+  position: relative;
+  top: 100px;
+  right: 8px;
   height: 155px;
-  width: 100%;
+  width: 102%;
   background-color: rgb(207,207,207);
 }
 p {
@@ -97,7 +109,7 @@ p {
   float: right;
   /*padding-right: 82px;*/
   position: relative;
-  left: 161px;
+  left: 206px;
 }
 .social-icons ul {
   list-style-type: none;
@@ -109,3 +121,10 @@ p {
   left: 22px;
   top: 4px;
 }
+/*html {
+    position: relative;
+    min-height: 100%;
+}*/
+/*body {*/
+    /*margin: 0 0 550px; /* bottom = footer height */*/
+/*}*/
