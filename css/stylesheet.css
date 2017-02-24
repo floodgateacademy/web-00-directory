@@ -12,7 +12,7 @@ background-color: #1C354E;
 height:50px;
 width:170px;
 float: left;
-margin:5px 0px;
+margin:8px 0px;
 margin-left: 10px;
 }
 .parent-container{
@@ -72,19 +72,24 @@ html, body {
   font-size: 14px;
   font-weight: 600;
   color: #FFF;
-  /*position: relative;*/
-  /*top: 100px;*/
-  /*right: 8px;*/
   margin-left: auto;
   margin-right: auto;
   height: 155px;
   width: 100%;
   background-color: #1C354E;
 }
+.liner{
+  padding-top: 35px;
+}
 .seattle {
-  position: relative;
+  float:left;
   top: 41px;
-  left: 50px;
+  /*left: 50px;*/
+  margin-top: 0;
+}
+#copyright{
+  margin-top: 10px;
+  margin-left: 35px;
 }
 .menu-item {
   display: inline;
@@ -94,6 +99,10 @@ html, body {
 .menu-item a{
   color: #FFF;
   text-decoration: none;
+}
+
+div.social-icons{
+  margin-right: 83px;
 }
 .bottom-nav {
   float: right;
@@ -111,32 +120,17 @@ html, body {
   display: inline-block;
   padding-left: 33px;
   font-size: 15px;
+  fill: #FFF;
 }
 .social-icons {
   float: right;
-  /*padding-right: 82px;*/
-  position: relative;
-  left: 171px;
+  padding-right:0;
+  /*left: 171px;*/
 }
 .social-icons ul {
   list-style-type: none;
-
 }
-
 .social-icons a{
   color: #FFF;
-}
-.social-svg {
-  display: inline;
-  position: relative;
-  left: 22px;
-  top: 4px;
   fill:#FFF;
 }
-/*html {
-    position: relative;
-    min-height: 100%;
-}*/
-/*body {*/
-    /*margin: 0 0 550px; /* bottom = footer height */*/
-/*}*/
