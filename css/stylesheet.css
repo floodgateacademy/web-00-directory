@@ -1,0 +1,136 @@
+/*------------------------------------
+  Empty div clearing
+------------------------------------*/
+.empty{
+  clear: both;
+}
+/*------------Styling the Headrer--------------------------------------*/
+.container{
+background-color: #1C354E;
+}
+.logo img{
+height:50px;
+width:170px;
+float: left;
+margin:8px 0px;
+margin-left: 10px;
+}
+.parent-container{
+background-color:#FFF;
+}
+.rowSection{
+padding: 10px 0;
+width: 99%;
+display:block;
+text-align: center;
+ }
+.circles{
+width:20%;
+display: inline-block;
+margin-left: 20px;
+padding-bottom: 0;
+}
+.circles p,.circles h3{
+  padding: 0;
+  margin: 0;
+}
+
+.circles img{
+height: 100px;
+width: 100px;
+border-radius: 50%;
+}
+
+.circles img:hover{
+height: 102px;
+width: 102px;
+border-radius: 50%;
+}
+​/*----------------------STYLING FOOTER*---------------------------/
+/* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}*/
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.footer, .page-wrap:after {
+  height: 142px;
+}
+
+.footer {
+  font-family: 'Asap', sans-serif;
+  letter-spacing: 0.16em;
+  font-size: 14px;
+  font-weight: 600;
+  color: #FFF;
+  margin-left: auto;
+  margin-right: auto;
+  height: 155px;
+  width: 100%;
+  background-color: #1C354E;
+}
+.liner{
+  padding-top: 35px;
+}
+.seattle {
+  float:left;
+  top: 41px;
+  /*left: 50px;*/
+  margin-top: 0;
+}
+#copyright{
+  margin-top: 10px;
+  margin-left: 35px;
+}
+.menu-item {
+  display: inline;
+  padding: 5px;
+}
+
+.menu-item a{
+  color: #FFF;
+  text-decoration: none;
+}
+
+div.social-icons{
+  margin-right: 83px;
+}
+.bottom-nav {
+  float: right;
+  padding-top: 9px;
+  padding-right: 40px;
+}
+.bottom-nav ul {
+  margin: 0px;
+
+}
+.clearfix {
+  clear: both;
+}
+.social-item {
+  display: inline-block;
+  padding-left: 33px;
+  font-size: 15px;
+  fill: #FFF;
+}
+.social-icons {
+  float: right;
+  padding-right:0;
+  /*left: 171px;*/
+}
+.social-icons ul {
+  list-style-type: none;
+}
+.social-icons a{
+  color: #FFF;
+  fill:#FFF;
+}
